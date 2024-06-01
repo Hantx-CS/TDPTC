@@ -2,6 +2,7 @@
 
 ### Directory Structure
 - data/			&emsp;datasets.
+  - create_cpp &emsp; C++ File to create different scale of datasets.
 - experiment_Fraction/		&emsp;Python File of the experiment for fraction.
 - experiment_InnerCount/		&emsp;Python File of the method InnerCount. 
 - experiment_Louvain/	  &emsp;Python File of the TDPTC on datasets partitioned by Louvain.
