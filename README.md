@@ -23,3 +23,6 @@ Download the [IMDB dataset](https://www.cise.ufl.edu/research/sparse/matrices/Pa
 ### Run Experiments
 
 For each `experiment_*` folder, the Python files can be executed using the commands `make run`, `make one`, or `make run_IMDB` specified in the Makefile. The default number of runs is set to 300, but this can be adjusted in the Makefile as needed.
+
+
+Copy `convert.py` and `mean.py` into each `experiment_*` folder. Running `make mean` will calculate the average results from repeated experiments.
