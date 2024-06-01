@@ -21,7 +21,7 @@ Download the [IMDB dataset](https://www.cise.ufl.edu/research/sparse/matrices/Pa
 ```
 
 ### Prepare for Scale experiment
-
+Generate a dataset of a specified scale using the following command, which extracts a subset from the original dataset according to the defined scale. This allows for testing the performance of algorithms at different scales.
 ```
   cd data/create_cpp
   make
