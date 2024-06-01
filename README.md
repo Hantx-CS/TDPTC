@@ -1,5 +1,6 @@
 # TDPTC
-# Directory Structure
+
+### Directory Structure
 - data/			&emsp;datasets.
 - experiment_Fraction/		&emsp;Python File of the experiment for fraction.
 - experiment_InnerCount/		&emsp;Python File of the method InnerCount. 
@@ -10,4 +11,10 @@
 - LICENSE.txt		&emsp;MPL license.
 - README.md		&emsp;This file.
 
-Download the [IMDB dataset](https://www.cise.ufl.edu/research/sparse/matrices/Pajek/IMDB.html) and place the dataset in data/
+### Prepare for IMDB
+Download the [IMDB dataset](https://www.cise.ufl.edu/research/sparse/matrices/Pajek/IMDB.html) and place the dataset in data/, and run the following commands:
+```
+  cd data/
+  python3 ReadIMDB.py IMDB.mtx edges.csv deg.csv
+  cd ../
+```
