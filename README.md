@@ -20,6 +20,15 @@ Download the [IMDB dataset](https://www.cise.ufl.edu/research/sparse/matrices/Pa
   cd ../
 ```
 
+### Prepare for Scale experiment
+
+```
+  cd data/create_cpp
+  make
+  ./CreateDatabase ../edges.csv $scale $eps 1 10 0
+  cd ../../
+```
+
 ### Run Experiments
 
 For each `experiment_*` folder, the Python files can be executed using the commands `make run`, `make one`, or `make run_IMDB` specified in the Makefile. The default number of runs is set to 300, but this can be adjusted in the Makefile as needed.
