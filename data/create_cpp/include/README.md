@@ -14,4 +14,4 @@ Please put the following files/directories under 'include/'.
 
 **Gcem**
 - gcem.hpp
-- gcem_incl
+- gcem_incl/
