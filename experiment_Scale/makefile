@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sourceFile=Cit-HepTh
+sourceFile=outEdge_n80000_itr
 SLEEPTIME=1200
 NUMBER =
 $(foreach num, $(shell seq 0 1 9), $(eval NUMBER += $(num)))
